@@ -9,6 +9,29 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 /* Base Styles */
+html {
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  font-family: "Book Antiqua", garamond, "Times New Roman", Helvetica, Arial, sans-serif;
+  line-height: 1.222em; /* 22 / 18 = 1.2222 */
+}
+
+header {
+  color: white;
+  height: 215px;
+  background-image: url("media/mobile_header.jpeg");
+}
+
+main {
+  padding: 0.611em 10% 1.222em;
+  background-color: yellow;
+}
+section {
+  background-color: pink;
+}
+
+footer {
+  background-color: blue;
+}
 
 /* Layout Styles */
 
