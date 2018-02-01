@@ -19,9 +19,9 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
+  font-family: inherit;; /* 1 */
+  font-size: inherit; /* 1 */
+  line-height: inherit; /* 1 */
   margin: 0; /* 2 */
 }
 
@@ -181,7 +181,7 @@ html {
   font-family: Quattrocento, serif, Lato, sans-serif;
   line-height: 1.222em; /* 22 / 18 = 1.2222 */
   background-image: url("media/header.jpeg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -194,7 +194,9 @@ header {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 2.369em; /* 42.635 / 18 = 2.369 */
+  line-height: 1.032em; /* 44 / 42.635 = 1.032 */
+  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
   font-weight: bold;
 }
 
@@ -204,17 +206,20 @@ header p {
 
 main {
   color: white;
-  padding: 0.611em 10% 1.222em;
+  padding: 1.222em 10% 1.222em;
 }
 
 section {
   background-color: rgba(13, 11, 11, 0.34);
 }
 
-
-
-
-
+section h2 {
+  font-size: 1.333em; /* 23.994 / 18 = 1.333 */
+  line-height: 0.9168em; /* 22 / 23.994 = 0.9168 */
+  font-weight: bold;
+  padding-top: 0.9169em;
+  padding-bottom: 0.9169em;
+}
 
 /* Layout Styles */
 
