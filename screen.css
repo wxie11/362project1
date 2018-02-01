@@ -13,25 +13,26 @@ html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   font-family: "Book Antiqua", garamond, "Times New Roman", Helvetica, Arial, sans-serif;
   line-height: 1.222em; /* 22 / 18 = 1.2222 */
+  background-image: url("media/header.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
 }
 
 header {
   color: white;
-  height: 215px;
-  background-image: url("media/mobile_header.jpeg");
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 main {
   padding: 0.611em 10% 1.222em;
-  background-color: yellow;
-}
-section {
-  background-color: pink;
 }
 
-footer {
-  background-color: blue;
-}
 
 /* Layout Styles */
 
