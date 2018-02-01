@@ -225,6 +225,13 @@ li {
   padding-bottom: 1.222em;
 }
 
+label[for=email],label[for=phone],
+label[for=birthday],label[for=address],
+label[for=name]
+{
+  display: block;
+}
+
 input {
   border: 0;
   line-height: 1;
@@ -237,7 +244,32 @@ input {
 /* Modular Styles */
 
 /* State Styles */
+@media screen and (min-width: 960px) {
+  h1 {
+    font-size: 3.157em; /* 56.832 / 18 = 3.157 */
+    line-height: 1.161em; /* 66 / 56.832 = 1.161 */
+    padding-bottom: 0.387em; /* 22 / 56.832 = 0.387 */
+  }
 
+  label[for=email],label[for=phone],
+  label[for=birthday],label[for=address],
+  label[for=name]
+  {
+    display:inline;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  header {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  main {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
 /* CSS Pseudo-Code */
 
 /*
