@@ -221,10 +221,15 @@ section h2 {
   padding-bottom: 0.9169em;
 }
 
+li {
+  padding-bottom: 1.222em;
+}
+
 input {
   border: 0;
   line-height: 1;
   padding: 13px;
+  background-color: rgba(255, 255, 255, 0.82);
 }
 
 /* Layout Styles */
