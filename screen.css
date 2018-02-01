@@ -221,6 +221,12 @@ section h2 {
   padding-bottom: 0.9169em;
 }
 
+input {
+  border: 0;
+  line-height: 1;
+  padding: 13px;
+}
+
 /* Layout Styles */
 
 /* Modular Styles */
