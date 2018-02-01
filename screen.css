@@ -11,7 +11,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Base Styles */
 html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
-  font-family: "Book Antiqua", garamond, "Times New Roman", Helvetica, Arial, sans-serif;
+  font-family: 'Quattrocento', serif, 'Lato', sans-serif;
   line-height: 1.222em; /* 22 / 18 = 1.2222 */
   background-image: url("media/header.jpeg");
   background-repeat: no-repeat;
@@ -22,6 +22,13 @@ html {
 
 header {
   color: white;
+    background-color: rgba(13, 11, 11, 0.34);
+}
+
+
+section {
+  background-color: rgba(13, 11, 11, 0.34);
+
 }
 
 header h1 {
@@ -30,7 +37,8 @@ header h1 {
 }
 
 main {
-  padding: 0.611em 10% 1.222em;
+  color: white;
+        padding: 0.611em 10% 1.222em;
 }
 
 
