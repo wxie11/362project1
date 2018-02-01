@@ -213,7 +213,7 @@ section {
   background-color: rgba(13, 11, 11, 0.34);
 }
 
-section h2 {
+h2 {
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
   line-height: 0.9168em; /* 22 / 23.994 = 0.9168 */
   font-weight: bold;
@@ -237,6 +237,10 @@ input {
   line-height: 1;
   padding: 0.72em;
   background-color: rgba(255, 255, 255, 0.82);
+}
+
+.invalid {
+  color: red;
 }
 
 /* Layout Styles */
