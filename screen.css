@@ -187,8 +187,7 @@ html {
 }
 
 header {
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black;
+  color: #3b3a36;
   padding: 1.222em 10% 1.222em;
 }
 
@@ -197,10 +196,6 @@ h1 {
   line-height: 1.032em; /* 44 / 42.635 = 1.032 */
   padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
   font-weight: bold;
-}
-
-header p {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 main {
@@ -251,7 +246,16 @@ input {
   body {
     background-image: url("media/new.jpg");
     background-position: right;
-    background-repeat: repeat;
+  }
+
+  header {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  main {
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
   h1 {
@@ -269,14 +273,8 @@ input {
 }
 
 @media screen and (min-width: 1400px) {
-  header {
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-
-  main {
-    padding-left: 15%;
-    padding-right: 15%;
+  body {
+      background-repeat:round;
   }
 }
 /* CSS Pseudo-Code */
