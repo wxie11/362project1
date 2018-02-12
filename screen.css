@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 /* stylelint-disable*/
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html,.reset{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
 /* Forms
@@ -198,13 +198,8 @@ h1 {
 }
 
 main {
-  text-align: center;
   color: white;
   padding: 1.222em 10% 1.222em;
-}
-
-#requirement {
-  text-align: left;
 }
 
 #form-area {
@@ -223,10 +218,11 @@ li {
   padding-bottom: 1.222em;
 }
 
-label[for=email],label[for=phone],
-label[for=birthday],label[for=address],
-label[for=name]
-{
+label[for="email"],
+label[for="phone"],
+label[for="birthday"],
+label[for="address"],
+label[for="name"] {
   display: block;
 }
 
@@ -271,17 +267,18 @@ input {
     padding-bottom: 0.387em; /* 22 / 56.832 = 0.387 */
   }
 
-  label[for=email],label[for=phone],
-  label[for=birthday],label[for=address],
-  label[for=name]
-  {
-    display:inline;
+  label[for="email"],
+  label[for="phone"],
+  label[for="birthday"],
+  label[for="address"],
+  label[for="name"] {
+    display: inline;
   }
 }
 
 @media screen and (min-width: 1400px) {
   body {
-    background-repeat:round;
+    background-repeat: round;
   }
   header {
     padding-left: 20%;
