@@ -198,13 +198,13 @@ h1 {
 }
 
 main {
-  color: white;
+  color: #3b3a36;
   padding: 1.222em 10% 1.222em;
 }
 
-#form-area {
+/*#form-area {
   background-color: rgba(13, 11, 11, 0.34);
-}
+}*/
 
 h2 {
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
@@ -218,19 +218,13 @@ li {
   padding-bottom: 1.222em;
 }
 
-label[for="email"],
-label[for="phone"],
-label[for="birthday"],
-label[for="address"],
-label[for="name"] {
-  display: block;
-}
-
 input {
+  display: block;
   border: 0;
   line-height: 1;
   padding: 0.72em;
-  background-color: rgba(255, 255, 255, 0.82);
+  background-color: rgba(13, 11, 11, 0.10);
+  width: 100%;
 }
 
 .invalid {
@@ -265,14 +259,6 @@ input {
     font-size: 3.157em; /* 56.832 / 18 = 3.157 */
     line-height: 1.161em; /* 66 / 56.832 = 1.161 */
     padding-bottom: 0.387em; /* 22 / 56.832 = 0.387 */
-  }
-
-  label[for="email"],
-  label[for="phone"],
-  label[for="birthday"],
-  label[for="address"],
-  label[for="name"] {
-    display: inline;
   }
 }
 
