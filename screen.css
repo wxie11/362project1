@@ -241,11 +241,6 @@ input {
   color: red;
 }
 
-footer {
-  text-align: center;
-  color: #3b3a36;
-}
-
 /* Layout Styles */
 #requirement-list {
   list-style: circle;
