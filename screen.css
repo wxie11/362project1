@@ -183,7 +183,6 @@ html {
   background-image: url("media/new_mobile.jpg");
   background-position: bottom;
   background-size: cover;
-  text-align: center;
 }
 
 header {
@@ -199,11 +198,16 @@ h1 {
 }
 
 main {
+  text-align: center;
   color: white;
   padding: 1.222em 10% 1.222em;
 }
 
-section {
+#requirement {
+  text-align: left;
+}
+
+#form-area {
   background-color: rgba(13, 11, 11, 0.34);
 }
 
@@ -237,25 +241,33 @@ input {
   color: red;
 }
 
-/* Layout Styles */
+footer {
+  text-align: center;
+  color: #3b3a36;
+}
 
+/* Layout Styles */
+#requirement-list {
+  list-style: circle;
+  list-style-position: inside;
+}
 /* Modular Styles */
 
 /* State Styles */
 @media screen and (min-width: 960px) {
   body {
-    background-image: url("media/new.jpg");
+    background-image: url("media/new2.jpg");
     background-position: right;
   }
 
   header {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   main {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   h1 {
@@ -274,9 +286,19 @@ input {
 
 @media screen and (min-width: 1400px) {
   body {
-      background-repeat:round;
+    background-repeat:round;
+  }
+  header {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  main {
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
+
 /* CSS Pseudo-Code */
 
 /*
