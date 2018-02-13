@@ -226,6 +226,7 @@ input {
   padding: 0.72em;
   background-color: rgba(13, 11, 11, 0.10);
   width: 100%;
+  box-sizing: border-box;
 }
 
 .invalid {
