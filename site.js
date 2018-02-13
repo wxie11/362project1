@@ -26,7 +26,7 @@ $('#info-form').on("submit",
       result.name = true;
     }
 
-    if(birthday == "")
+    if(birthday === "")
     {
       console.log('invalid date');
       $('.invalid').remove();
@@ -63,7 +63,7 @@ $('#info-form').on("submit",
     {
       $(this).remove();
       $('#form-heading').remove();
-      $('#form-area').append('<h1>Thank you!</h1>')
+      $('#form-area').append('<h1>Thank you!</h1>');
       $('#form-area').append('<h1>'+ name +'</h1>');
       $('#form-area').append('<li>Your email: '+ email +'</li>');
       $('#form-area').append('<li>Your phone: '+ phone +'</li>');
