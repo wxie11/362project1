@@ -183,10 +183,10 @@ html {
   background-image: url("media/new_mobile.jpg");
   background-position: bottom;
   background-size: cover;
+  color: #3b3a36;
 }
 
 header {
-  color: #3b3a36;
   padding: 1.222em 10% 1.222em;
 }
 
@@ -198,7 +198,6 @@ h1 {
 }
 
 main {
-  color: #3b3a36;
   padding: 1.222em 10% 1.222em;
 }
 
@@ -224,9 +223,14 @@ input {
   border: 0;
   line-height: 1;
   padding: 0.72em;
-  background-color: rgba(13, 11, 11, 0.10);
+  background-color: rgba(13, 11, 11, 0.16);
   width: 100%;
   box-sizing: border-box;
+}
+
+#submit input:hover {
+  background-color: #3b3a36;
+  color: white;
 }
 
 .invalid {
@@ -237,7 +241,7 @@ input {
 /* Modular Styles */
 
 /* State Styles */
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 750px) {
   body {
     background-image: url("media/new2.jpg");
     background-position: right;
