@@ -216,6 +216,7 @@ h2 {
 
 li {
   padding-bottom: 1.222em;
+  list-style: none;
 }
 
 input {
@@ -232,10 +233,6 @@ input {
 }
 
 /* Layout Styles */
-#requirement-list {
-  list-style: circle;
-  list-style-position: inside;
-}
 /* Modular Styles */
 
 /* State Styles */

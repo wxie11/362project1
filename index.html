@@ -27,14 +27,14 @@
   </header>
   <main>
     <section id="form-area">
-      <h2>Become A Volunteer &#9825;</h2>
+      <h2 id="form-heading">Become A Volunteer &#9825;</h2>
       <form action="#null" method="get" id="info-form" novalidate>
         <ol id="form-list">
-          <li>
+          <li id="name-list">
             <label for="name">Full Name</label>
             <input type="text" id="name" name="name" />
           </li>
-          <li>
+          <li id="birthday-list">
             <label for="birthday">Date Of Birth</label>
             <input type="date" id="birthday" name="birthday" />
           </li>
@@ -42,9 +42,9 @@
             <label for="email">Email Address</label>
             <input placeholder="example@email.com" type="email" id="email" name="email" />
           </li>
-          <li>
+          <li id="phone-list">
             <label for="phone">Phone Number</label>
-            <input placeholder="###-###-####" type="tel" id="phone" name="phone" />
+            <input placeholder="10-digit" type="tel" id="phone" name="phone" />
           </li>
           <li>
             <input type="submit" value="I Want to Help!" />
