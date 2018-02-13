@@ -228,9 +228,13 @@ input {
   box-sizing: border-box;
 }
 
-#submit input:hover {
+.last-item input:hover {
   background-color: #3b3a36;
   color: white;
+}
+
+.last-item {
+  padding-bottom: 6.11em /*1.222 * 5 */
 }
 
 .invalid {

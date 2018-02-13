@@ -67,7 +67,7 @@ $('#info-form').on("submit",
       $('#form-area').append('<h1>'+ name +'</h1>');
       $('#form-area').append('<li>Your email: '+ email +'</li>');
       $('#form-area').append('<li>Your phone: '+ phone +'</li>');
-      $('#form-area').append('<li>Your form has been submitted successfully!</li>');
+      $('#form-area').append('<li class="last-item">Your form has been submitted successfully!</li>');
     }
   }
 );
