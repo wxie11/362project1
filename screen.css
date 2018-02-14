@@ -245,7 +245,13 @@ input {
 /* Modular Styles */
 
 /* State Styles */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 650px) {
+  .last-item {
+    padding-bottom: 7.332em /*1.222 * 6 */
+  }
+}
+
+@media screen and (min-width: 768px) {
   body {
     background-image: url("media/new2.jpg");
     background-position: right;
@@ -266,12 +272,17 @@ input {
     line-height: 1.161em; /* 66 / 56.832 = 1.161 */
     padding-bottom: 0.387em; /* 22 / 56.832 = 0.387 */
   }
+
+  .last-item {
+    padding-bottom: 3.666em /*1.222 * 3 */
+  }
 }
 
 @media screen and (min-width: 1400px) {
   body {
     background-repeat: round;
   }
+
   header {
     padding-left: 20%;
     padding-right: 20%;
