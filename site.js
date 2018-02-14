@@ -52,7 +52,7 @@ $('#info-form').on("submit",
     {
       console.log('invalid phone number');
       $('.invalid').remove();
-      $('#phone-list').append('<p class="invalid">Please enter a valid phone number.</p>');
+      $('#phone-list').append('<p class="invalid">Please enter a 10-digit phone number.</p>');
       return false;
     }
     else {
