@@ -178,8 +178,9 @@ textarea {
 /* Base Styles */
 html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
-  font-family: Quattrocento, serif, Lato, sans-serif;
-  line-height: 1.222em; /* 22 / 18 = 1.2222 */
+  /*font-family: Quattrocento, serif;*/
+  font-family: 'PT Sans', "Open Sans", sans-serif;
+  line-height: 1.22222222em; /* 22 / 18 = 1.2222 */
   background-image: url("media/new_mobile.jpg");
   background-position: bottom;
   background-size: cover;
@@ -187,18 +188,18 @@ html {
 }
 
 header {
-  padding: 1.222em 10% 1.222em;
+  padding: 1.22222222em 10% 1.22222222em;
 }
 
 h1 {
-  font-size: 2.369em; /* 42.635 / 18 = 2.369 */
-  line-height: 1.032em; /* 44 / 42.635 = 1.032 */
-  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
+  font-size: 2.36861111em; /* 42.635 / 18 = 2.369 */
+  line-height: 1.03201595em; /* 44 / 42.635 = 1.032 */
+  padding-bottom: 0.516007975em; /* 22 / 42.635 = 0.516 */
   font-weight: bold;
 }
 
 main {
-  padding: 1.222em 10% 1.222em;
+  padding: 1.22222222em 10% 1.22222222em;
 }
 
 /*#form-area {
@@ -207,14 +208,14 @@ main {
 
 h2 {
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
-  line-height: 0.9168em; /* 22 / 23.994 = 0.9168 */
+  line-height: 0.916895891em; /* 22 / 23.994 = 0.9168 */
   font-weight: bold;
-  padding-top: 0.9169em;
-  padding-bottom: 0.9169em;
+  padding-top: 0.916895891em;
+  padding-bottom: 0.916895891em;
 }
 
 li {
-  padding-bottom: 1.222em;
+  padding-bottom: 1.22222222em;
   list-style: none;
 }
 
@@ -247,7 +248,7 @@ input {
 /* State Styles */
 @media screen and (min-width: 650px) {
   .last-item {
-    padding-bottom: 7.332em /*1.222 * 6 */
+    padding-bottom: 7.33333332em /*1.222 * 6 */
   }
 }
 
@@ -268,13 +269,13 @@ input {
   }
 
   h1 {
-    font-size: 3.157em; /* 56.832 / 18 = 3.157 */
-    line-height: 1.161em; /* 66 / 56.832 = 1.161 */
-    padding-bottom: 0.387em; /* 22 / 56.832 = 0.387 */
+    font-size: 3.15733333; /* 56.832 / 18 = 3.157 */
+    line-height: 1.16131757em; /* 66 / 56.832 = 1.161 */
+    padding-bottom: 0.387105856em; /* 22 / 56.832 = 0.387 */
   }
 
   .last-item {
-    padding-bottom: 3.666em /*1.222 * 3 */
+    padding-bottom: 3.66666666em /*1.222 * 3 */
   }
 }
 
